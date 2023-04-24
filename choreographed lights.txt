@@ -1,0 +1,81 @@
+void setup(){
+  pinMode(2, OUTPUT);
+  pinMode(3, OUTPUT);
+  pinMode(4, OUTPUT);
+  pinMode(5, OUTPUT);
+  pinMode(6, OUTPUT);
+  pinMode(7, OUTPUT);
+  
+  pinMode(8, OUTPUT);
+  pinMode(9, OUTPUT);
+  pinMode(10, OUTPUT);
+  
+  delay(10);
+  digitalWrite(8, HIGH);
+  delay(475);
+  digitalWrite(9, HIGH);
+  delay(900);
+  digitalWrite(10, HIGH);
+  delay(500);
+  digitalWrite(8, LOW);
+  digitalWrite(9, LOW);
+  digitalWrite(10, LOW);
+  delay(1490);
+  
+  digitalWrite(8, HIGH);
+  delay(500);
+  digitalWrite(9, HIGH);
+  delay(900);
+  digitalWrite(10, HIGH);
+  delay(500);
+  digitalWrite(8, LOW);
+  digitalWrite(9, LOW);
+  digitalWrite(10, LOW);
+  delay(670);
+  
+  digitalWrite(8, HIGH);
+  delay(500);
+  digitalWrite(9, HIGH);
+  delay(900);
+  digitalWrite(10, HIGH);
+  delay(500);
+  digitalWrite(8, LOW);
+  digitalWrite(9, LOW);
+  digitalWrite(10, LOW);
+  delay(450);
+  
+  digitalWrite(8, HIGH);
+  delay(320);
+  digitalWrite(9, HIGH);
+  delay(850);
+  digitalWrite(10, HIGH);
+  delay(500);
+  digitalWrite(8, LOW);
+  digitalWrite(9, LOW);
+  digitalWrite(10, LOW);
+  delay(1530);
+  
+  digitalWrite(2, HIGH);
+  delay(910);
+  digitalWrite(4, HIGH);
+  delay(940);
+  digitalWrite(6, HIGH);
+  delay(1000);
+  digitalWrite(2, LOW);
+  digitalWrite(4, LOW);
+  digitalWrite(6, LOW);
+  delay(70);
+  
+  digitalWrite(3, HIGH);
+  delay(950);
+  digitalWrite(5, HIGH);
+  delay(275);
+  digitalWrite(7, HIGH);
+  delay(100);
+  digitalWrite(3, LOW);
+  digitalWrite(5, LOW);
+  digitalWrite(7, LOW);
+}
+
+void loop(){
+}
